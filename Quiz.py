@@ -1,4 +1,6 @@
 # NUIST Quiz Game in Python
+# Author: Leo Li
+# Date:   2026/3/30
 
 def quiz():
     print("Welcone to the Animal Quiz")
