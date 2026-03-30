@@ -13,23 +13,19 @@ GPIO.setup(18, GPIO.OUT)
 GPIO.setup(17, GPIO.OUT)
 
 def quiz():
-    print("Welcone to the Python Code Quiz")
-    print("Answer the following questions:")
+    print("Welcone to the Animal Quiz")
+    print("Answer the following question:")
 
     # Questions and Answers
     questions = [
-        "1)Which of the following is NOT a python data type?\na)int\nb)float\nc)rational\nd)string\ne)bool\n",
-        "2)Which of the following is NOT a built-in operation in Python?\na)+\nb)%\nc)abs()\nd)sqrt()\n",
-        "3)In a mixed-type expression involving ints and floats, Pyhton will convert:\na)floats to ints\nb)ints to strings\nc)floats and ints to strings\nd)ints to floats\n",
-        "4)The best structure for implementing a multi-way decision in Python is:\na)if\nb)if-else\nc)if-elif-else\nd)try\n",
-        "5)What statement can be executed in the body of a loop to cause it to terminate?\na)if\nb)exit\nc)continue\nd)break\n"
+        "1)What is the largest animal on Earth?\na)Blue Whale\nb)Mouse\nc)Cat\n",
+        "2)Which bird can fly backwards?\na)Cuckoo\nb)Eagle\nc)Hummingbird\n",
+        "3)What is the only mammal capable og flight?\na)Bat\nb)Squirrel\nc)Dolphin\n"
     ]
     answers = [
+        "a",
         "c",
-        "d",
-        "d",
-	"c",
-	"d"
+        "a",
     ]
     score = 0
 
