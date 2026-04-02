@@ -28,8 +28,8 @@ def quiz():
         "c",
         "d",
         "d",
-	"c",
-	"d"
+        "c",
+        "d"
     ]
     score = 0
 
